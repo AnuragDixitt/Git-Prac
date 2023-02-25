@@ -1,7 +1,7 @@
 import add
-import Subtract
+import subtract
 import multiplication
-import Division
+import division
 
 def inlt():
     return(list(map(int,input("Enter two numbers : ").split())))
@@ -29,8 +29,8 @@ if __name__ == "__main__" :
     if(choice == 1) :
         print(add.add(inp[0], inp[1]))
     elif(choice == 2) :
-        print(Subtract.subtract(inp[0], inp[1]))
+        print(subtract.subtract(inp[0], inp[1]))
     elif(choice == 3) :
-        print(multiplication.multi(inp[0], inp[1]))
+        print(multiplication.multiply(inp[0], inp[1]))
     elif(choice == 4) :
-        print(Division.divide(inp[0], inp[1]))
+        print(division.divide(inp[0], inp[1]))
